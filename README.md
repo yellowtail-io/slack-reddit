@@ -12,4 +12,10 @@ Fetch a reddit post in slack!
 
 `post ID` can be found in the URL of the reddit post's permalink.
 
+Post ID:
+
+![Post ID](http://d.pr/i/lDbh+)
+
+Result on Slack:
+
 ![Slack Reddit](http://d.pr/i/fm0I+)
