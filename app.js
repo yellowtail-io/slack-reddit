@@ -18,7 +18,7 @@ controller.setupWebserver(process.env.PORT, function(err, webserver) {
 
   webserver.post('/', function(req, res) {
 
-    res.json({ text: "OK! Fetching from Reddit's servers. Hang tight." });
+    res.json({ text: `OK! Fetching post ${req.body.text} from Reddit's servers. Hang tight.` });
 
     request(`http://www.reddit.com/comments/${req.body.text}.json?limit=1&sort=top`, function (error, response, body) {
       if (!error && response.statusCode == 200) {
