@@ -1,2 +1,3 @@
-# slack-reddit
-Pull in a reddit post in slack!
+# Slack Reddit
+
+Fetch a reddit post in slack!
